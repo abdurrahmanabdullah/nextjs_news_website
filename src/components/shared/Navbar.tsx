@@ -67,6 +67,16 @@ const Navbar = () => {
                 About
               </NavigationMenuLink>
             </NavigationMenuItem>
+            {/* blog */}
+            <NavigationMenuItem>
+              <NavigationMenuLink
+                href="/blog"
+                className={`${
+                  pathname === "/blog" ? "text-red-500 font-semibold" : ""
+                }hover:text-red-500`}>
+                Blog
+              </NavigationMenuLink>
+            </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
         {/* color switch and login button  */}
